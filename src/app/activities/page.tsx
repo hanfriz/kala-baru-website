@@ -3,6 +3,9 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
+
+
+
 export default function Activities() {
   const images = [
     "/activities/boardgames.jpg",
@@ -11,6 +14,7 @@ export default function Activities() {
     "/activities/community.jpg",
   ];
 
+ 
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {

@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "Kopi Kala Baru Surabaya | Coffee.Games.Music",
+};
+
 export default function Home() {
   return (
     <main
@@ -10,7 +14,6 @@ export default function Home() {
     >
       <div className="text-center px-6 bg-white/70 backdrop-blur-sm rounded-2xl py-10">
 
-        {/* LOGO */}
         <div className="mb-6 flex justify-center">
           <Image
             src="/logo-kala-baru.png"
@@ -26,7 +29,7 @@ export default function Home() {
         </h1>
 
         <p className="text-[#5C4A3A] max-w-md mx-auto mb-8">
-          A warm space to slow down, enjoy good coffee,
+          A warm space to slow down, enjoy good coffee, listen to live music
           and share simple moments together.
         </p>
 

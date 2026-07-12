@@ -1,4 +1,10 @@
-export default function ContactPage() {
+
+export const metadata = {
+  title: "Kopi Kala Baru Surabaya | Coffee.Games.Music",
+};
+export default function ContactPage()
+
+{
   return (
     <main
       className="relative min-h-screen bg-cover bg-center flex justify-center py-20 px-6"

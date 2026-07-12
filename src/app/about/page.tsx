@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "Kopi Kala Baru Surabaya | Coffee.Games.Music",
+};
+
 export default function AboutPage() {
   return (
     <main

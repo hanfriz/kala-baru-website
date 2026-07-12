@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Kopi Kala Baru Surabaya | Coffee.Games.Music",
+};
+
 export default function LocationPage() {
   return (
     <main
