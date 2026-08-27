@@ -29,15 +29,15 @@ export default function ProductsPage() {
         {/* PRODUCT 1 */}
         <div className="grid md:grid-cols-2 gap-10 items-center mb-20">
           <Image
-            src="/product-1.jpg"
-            alt="Kala Baru signature coffee"
+            src="/product-01.jpg"
+            alt="Kala Baru signature"
             width={600}
             height={400}
             className="rounded-2xl object-cover"
           />
           <div>
             <h2 className="text-2xl font-semibold mb-3 text-[#3A2A1F]">
-              Kala Baru Signature Coffee
+              Kala Baru Signature
             </h2>
             <p className="text-[#5C4A3A] leading-relaxed">
               Balanced, smooth, and comforting —
@@ -50,8 +50,8 @@ export default function ProductsPage() {
         <div className="grid md:grid-cols-2 gap-10 items-center mb-20">
           <div className="md:order-2">
             <Image
-              src="/product-2.jpg"
-              alt="Kala Baru non coffee drink"
+              src="/product-02.jpg"
+              alt="Kala Baru Food"
               width={600}
               height={400}
               className="rounded-2xl object-cover"
@@ -59,10 +59,10 @@ export default function ProductsPage() {
           </div>
           <div className="md:order-1">
             <h2 className="text-2xl font-semibold mb-3 text-[#3A2A1F]">
-              Refreshing Non-Coffee Drinks
+              Tasty dishes to satisfy your cravings!
             </h2>
             <p className="text-[#5C4A3A] leading-relaxed">
-              Light, refreshing, and thoughtfully made —
+              Fresh, Juicy and thoughtfully made —
               perfect for slow afternoons or warm days.
             </p>
           </div>
@@ -71,7 +71,7 @@ export default function ProductsPage() {
         {/* PRODUCT 3 */}
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <Image
-            src="/product-3.jpg"
+            src="/product-03.jpg"
             alt="Kala Baru comfort food"
             width={600}
             height={400}
@@ -82,7 +82,7 @@ export default function ProductsPage() {
               Comfort Food
             </h2>
             <p className="text-[#5C4A3A] leading-relaxed">
-              Simple bites that pair well with coffee —
+              Simple foods that pair well with coffee —
               made to share or enjoy on your own.
             </p>
           </div>
@@ -93,7 +93,7 @@ export default function ProductsPage() {
       <div className="grid md:grid-cols-2 gap-10 items-center mb-20">
           <div className="md:order-2">
             <Image
-              src="/product-4.jpg"
+              src="/product-04.jpg"
               alt="Kala Baru Main Course"
               width={600}
               height={400}
@@ -105,7 +105,7 @@ export default function ProductsPage() {
               Yummy Food to satisfy your cravings!
             </h2>
             <p className="text-[#5C4A3A] leading-relaxed">
-              Hearty, flavorful main courses you’ll crave from the first bite.
+              Hearty, flavorful food you’ll crave from the first bite.
             </p>
           </div>
         </div>
@@ -137,19 +137,19 @@ export default function ProductsPage() {
     />
 
     <img
-      src="/product-1.jpg"
+      src="/product-01.jpg"
       alt="Kala Baru product"
       className="snap-center min-w-[260px] h-[340px] rounded-2xl object-cover"
     />
 
     <img
-      src="/product-2.jpg"
+      src="/product-02.jpg"
       alt="Kala Baru product"
       className="snap-center min-w-[260px] h-[340px] rounded-2xl object-cover"
     />
 
     <img
-      src="/product-3.jpg"
+      src="/product-03.jpg"
       alt="Kala Baru product"
       className="snap-center min-w-[260px] h-[340px] rounded-2xl object-cover"
     />
