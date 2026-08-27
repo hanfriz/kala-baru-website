@@ -1,4 +1,4 @@
-export default function languageCoursePage() {
+export default function languageGroupPage() {
   return (
     <main className="min-h-screen bg-[#FDF1DD] dark:bg-[#1a1a1a]">
 
@@ -6,7 +6,7 @@ export default function languageCoursePage() {
       <div
         className="h-[220px] md:h-[320px] lg:h-[400px] bg-cover bg-center flex items-center justify-center"
         style={{
-          backgroundImage: "url('./language-course/germany-bg.jpg')",
+          backgroundImage: "url('./language-group/germany-bg.jpg')",
         }}
       >
         <div className="bg-black/40 w-full h-full flex items-center justify-center">
@@ -35,7 +35,7 @@ export default function languageCoursePage() {
 
           {/* IMAGE */}
           <img
-            src="./language-course/conversation.jpg"
+            src="./language-group/conversation.jpg"
             className="rounded-xl mb-8 md:mb-10 w-full h-[200px] md:h-[320px] object-cover shadow-md"
           />
 

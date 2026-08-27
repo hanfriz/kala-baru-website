@@ -209,7 +209,7 @@ export default function BoardGames() {
       className="bg-white dark:bg-[#2b2b2b] rounded-xl shadow-md hover:shadow-xl transition overflow-hidden"
       >
       <img
-      src="/activities/boardgames/keltis.jpg"
+      src="/activities/boardgames/keltis.webp"
       className="w-full h-[220px] object-cover"
       alt="Keltis"
      />

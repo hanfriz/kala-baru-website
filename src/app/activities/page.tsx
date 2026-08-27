@@ -12,6 +12,7 @@ export default function Activities() {
     "/activities/language.jpg",
     "/activities/meeting.jpg",
     "/activities/community.jpg",
+ 
   ];
 
  
@@ -74,11 +75,11 @@ export default function Activities() {
 
           {/* LANGUAGE */}
           <Link
-            href="/activities/language-course"
+            href="/activities/language-group"
             className="bg-white dark:bg-[#2b2b2b] rounded-xl shadow-md p-6 md:p-10 hover:shadow-xl transition"
           >
             <h2 className="text-xl md:text-2xl font-semibold mb-2 text-[#3A2A1F] dark:text-white">
-              🌍 Language Course
+              🌍 Language Group
             </h2>
 
             <p className="text-[#6B5A48] dark:text-gray-300 text-sm md:text-base">
@@ -87,6 +88,7 @@ export default function Activities() {
           </Link>
 
           {/* COMMUNITY */}
+         
           <div className="bg-white dark:bg-[#2b2b2b] rounded-xl shadow-md p-6 md:p-10">
             <h2 className="text-xl md:text-2xl font-semibold mb-2 text-[#3A2A1F] dark:text-white">
               👥 Community Meetup
